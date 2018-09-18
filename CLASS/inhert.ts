@@ -30,12 +30,20 @@ class TwoWheeler extends Vehicle{
   
     //every sub class has to initilize parent class constructor....its mandatory if its optinal value
     //no need of doing it just initilize sub class property
+    
     constructor(name?:string,company?:string,price?:number,color?:string,speed?:number){
           //treggring super class before sub class is mandatory
                 super(name,company,price);
                 this.color=color;
                 this.speed=speed;
     }
+ 
+//     constructor(color?:string,speed?:number){
+//               super();
+//               this.color=color;
+//               this.speed=speed;
+//   }
+
 }
 //creating a sub class object
 // let twowheeler = new TwoWheeler("HarleyHD","Harley",2000000);
