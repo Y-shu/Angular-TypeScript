@@ -14,6 +14,7 @@ interface Movie{
     //making them optional so that we need not implement
     // show?():string;
     // info?():string;
+    //empty body functions
     show():string;
     info?():string;
 }
