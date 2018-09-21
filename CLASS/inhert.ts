@@ -24,11 +24,12 @@ class TwoWheeler extends Vehicle{
     public run():number{
          return this.speed;
     }
-    //we creating sub class we need to initilize super class constructor
+    //we creating sub class and we need to initilize super class constructor
     //using super method we will send sub class construstor values to super class values
     //super class will get initilize if we do so
   
-    //every sub class has to initilize parent class constructor....its mandatory if its optinal value
+    //every sub class constructor has to initilize parent class constructor....
+    //its mandatory if its optinal value
     //no need of doing it just initilize sub class property
     
     constructor(name?:string,company?:string,price?:number,color?:string,speed?:number){
